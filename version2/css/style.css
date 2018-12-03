@@ -1,40 +1,51 @@
 body{
-margin: 0;
-padding: 0;
-width: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 h3 {
-font-family: 'Wellfleet';
-font-weight: normal;
-font-size: 16px;
-text-align: center;
-margin: 5px 0;
-padding: 0;
-position: relative;
+  font-family: 'Wellfleet';
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+  padding: 0;
+  position: relative;
 }
 h4 {
-font-family: 'Wellfleet';
-text-align: center;
-color: black;
-font-size: 30px;
-padding: 20px
+  font-family: 'Wellfleet';
+  text-align: center;
+  color: black;
+  font-size: 30px;
 }
+
 h4 span {
   background-color: white;
   padding: 5px;
   border: solid;
   border-width: thin;
 }
+
 p {
   text-align: center;
   font-family: 'Wellfleet';
   color: black;
 }
+
 p span {
   background-color: white;
   padding: 5px;
   opacity: 0.8
 }
+
+cite{
+  margin-left: 20%;
+  text-align: left;
+  font-family: 'Wellfleet';
+  color: black;
+  font-style: bold;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -168,38 +179,65 @@ form.example::after {
 }
 
 #slide1{
-background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
-color: #fff;
-height: 100%;
-margin: 0;
-padding: 200px 0 260px 0;
-background-size: cover;
+  background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover;
 }
 #slide2{
-background-color: #fff;
-color: #333333;
-height: 100%;
-margin: 0 auto;
-overflow: hidden;
-padding: 200px 0;
+  background-color: lightgrey;
+  color: #333333;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
 }
 #slide3{
-background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
-height: 100%;
-padding: 170px 0 0 0;
-background-size: cover;
+  background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+  height: 100%;
+  padding: 170px 0 0 0;
+  background-size: cover;
 }
 #slide4{
-background-color: #fff;
-color: #333333;
-height: 100%;
-padding: 200px 0;
+  background-color: #fff;
+  color: #333333;
+  height: 100%;
+  padding: 200px 0;
 }
 #slide5{
-background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
-height: 100%;
-margin: 0 auto;
-padding: 250px 0;
-color: #fff;
-background-size: cover;
+  background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+  height: 100%;
+  margin: 0 auto;
+  padding: 250px 0;
+  color: #fff;
+  background-size: cover;
+}
+.italics{
+  font-style: italic;
+  text-align: left;
+
+}
+#definition{
+  margin: 0 auto;
+  position: relative;
+  border: 5px, solid, black;
+  background-color: white;
+  opacity: 1;
+  text-align: left;
+  padding: 0;
+  font-family: Wellfleet;
+  padding: 0.5% 3%
+}
+
+.left {
+  text-align: left;
+
+}
+
+#brunch {
+  padding-top: 2%;
+  font-size: 48px;
+  font-style: bold;
 }
